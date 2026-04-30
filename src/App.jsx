@@ -1,10 +1,18 @@
+import './App.css';
+
 function App() {
   return (
-    <div style={{ fontFamily: 'sans-serif', padding: '2rem', textAlign: 'center' }}>
-      <h1>🚀déploiement automatique opérationnel</h1>
-      <p>Projet réalisé par <strong>Mohamed CHIBOUB</strong></p>
-      <p>Future application : gestion de tâches Kanban</p>
-    </div>
+    <main className="page">
+      <section className="card">
+        <h1 className="title">🚀 Déploiement automatique opérationnel</h1>
+        <p className="text">
+          Projet réalisé par <strong>CHIBOUB Mohamed</strong>
+        </p>
+        <p className="subtitle">
+          Future application : gestion de tâches Kanban
+        </p>
+      </section>
+    </main>
   );
 }
 
